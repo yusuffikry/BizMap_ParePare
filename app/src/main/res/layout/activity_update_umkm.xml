@@ -1,0 +1,205 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/bg_blue">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update UMKM"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FCFCFD"
+            android:fontFamily="sans-serif-medium"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <!--        &lt;!&ndash; Input Nama UMKM &ndash;&gt;-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama UMKM"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_umkm_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama UMKM"
+            android:background="@drawable/bg_edittext"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <!--        &lt;!&ndash; Input Alamat UMKM &ndash;&gt;-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat UMKM"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_umkm_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat UMKM"
+            android:background="@drawable/bg_edittext"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textMultiLine" />
+
+        <!--&lt;!&ndash;        Input nomor Telepon&ndash;&gt;-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_umkm_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon"
+            android:background="@drawable/bg_edittext"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textMultiLine" />
+
+        <!--        &lt;!&ndash; Input Lokasi Titik Koordinat &ndash;&gt;-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titik Koordinat UMKM (Maps)"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_umkm_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lokasi Koordinat (Link Maps)"
+            android:background="@drawable/bg_white"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textUri" />
+
+        <!--        &lt;!&ndash; Input NIB &ndash;&gt;-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIB"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_nib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIB (Nomor Induk Berusaha)"
+            android:background="@drawable/bg_edittext"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="number" />
+
+        <!-- Instagram Link Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link Instagram"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/editLinkIg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link Instagram"
+            android:inputType="textUri"
+            android:padding="12dp"
+            android:background="@drawable/bg_white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Facebook Link Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link Facebook"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/editLinkFb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link Facebook"
+            android:inputType="textUri"
+            android:padding="12dp"
+            android:background="@drawable/bg_white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Input Upload Gambar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unggah Foto Profil UMKM"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#17233A" />
+
+        <ImageView
+            android:id="@+id/edit_umkm_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/baseline_camera_alt_24"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_image_placeholder"
+            android:padding="8dp" />
+
+
+        <!-- Tombol Daftar -->
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E11A0B" />
+    </LinearLayout>
+</ScrollView>

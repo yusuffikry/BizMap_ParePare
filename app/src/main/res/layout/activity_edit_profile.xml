@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_blue">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0097B7"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Input Nama Lengkap -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:textColor="#0097B7"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Lengkap"
+        android:background="@drawable/bg_white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Username -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#0097B7"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Username"
+        android:background="@drawable/bg_white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Password -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#0097B7"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Password"
+        android:background="@drawable/bg_white"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword" />
+
+    <!-- Tombol Simpan -->
+    <Button
+        android:id="@+id/saveProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:backgroundTint="#007bff"
+        android:textColor="#ffffff"
+        android:padding="12dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

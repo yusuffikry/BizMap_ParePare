@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <SearchView
+        android:id="@+id/search_produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+
+    <!-- RecyclerView untuk menampilkan daftar UMKM -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_postingan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:paddingBottom="16dp"
+        tools:listitem="@layout/item_postingan"/>
+</LinearLayout>

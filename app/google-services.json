@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460217874534",
+    "project_id": "umkm-buhar",
+    "storage_bucket": "umkm-buhar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460217874534:android:0a322a86ec9e0dfe2795a7",
+        "android_client_info": {
+          "package_name": "com.example.umkmbuhar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFIl34SDc6wG3AlKaZE6I8DfgwEgGYX8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

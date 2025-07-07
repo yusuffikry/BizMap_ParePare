@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Bagian Konten -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Text: Aplikasi -->
+        <TextView
+            android:id="@+id/text_aplikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APLIKASI"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bizmap"
+            android:contentDescription="Logo" />
+
+        <!-- Text: UMKM Kota Pare-Pare -->
+        <TextView
+            android:id="@+id/text_umkm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UMKM KOTA"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARE-PARE"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <!-- Button: Get Started -->
+        <Button
+            android:id="@+id/btn_get_started"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="MULAI"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#17233A"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Bagian Logo Paling Bawah -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="8dp"
+        android:background="@drawable/bg_blue">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_parepare"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_unhas"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_kkn"/>
+    </LinearLayout>
+
+</LinearLayout>

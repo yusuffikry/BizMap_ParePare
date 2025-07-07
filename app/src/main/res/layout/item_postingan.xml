@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="16dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="12dp"
+    android:background="#FFFFFF"
+    android:layout_margin="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#085FA3"
+        android:padding="16dp">
+
+        <!-- Header: Avatar dan Nama -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar_postingan"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logo_parepare"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/bg_circle"
+                android:padding="2dp" />
+
+            <!-- Nama UMKM -->
+            <TextView
+                android:id="@+id/name_postingan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Batik Pare-pare"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+        <!-- Gambar UMKM -->
+        <ImageView
+            android:id="@+id/image_postingan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kain_batik" />
+
+        <!-- Deskripsi -->
+        <TextView
+            android:id="@+id/produk_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/alamat_produk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
