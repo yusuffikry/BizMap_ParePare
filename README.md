@@ -43,7 +43,7 @@ Kamu dapat mengakses aplikasi melalui tautan berikut:
 - Mempermudah navigasi pelanggan ke lokasi UMKM.
 
 ##  Dokumentasi Lengkap
-Panduan lengkap dapat dilihat di file PDF: [`Panduan Penggunaan Aplikasi BizMap`](./Buku%20Panduan_Muh.%20Yusuf%20Fikry_Panduan%20Penggunaan%20Aplikasi%20BizMap.pdf)
+Panduan lengkap dapat dilihat di file PDF: [`Panduan Penggunaan Aplikasi BizMap`]([./Buku%20Panduan_Muh.%20Yusuf%20Fikry_Panduan%20Penggunaan%20Aplikasi%20BizMap.pdf](https://drive.google.com/file/d/1aUKRGT8CpQF6gCuvXskWSJM_ObA-6PZh/view?usp=sharing))
 
 ##  Kontributor
 - Muh. Yusuf Fikry (Penanggung Jawab Program)
